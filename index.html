@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Sarthak Pattnaik — AI and automation engineer, researcher, and reader." />
+    <meta name="theme-color" content="#f2f0ea" />
+    <meta property="og:title" content="Sarthak Pattnaik" />
+    <meta property="og:description" content="AI and automation engineer, researcher, and reader." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og.png" />
+    <meta property="og:image:alt" content="Sarthak Pattnaik — AI and automation engineer, researcher, and reader." />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Sarthak Pattnaik" />
+    <meta name="twitter:description" content="AI and automation engineer, researcher, and reader." />
+    <meta name="twitter:image" content="/og.png" />
+    <title>Sarthak Pattnaik</title>
+    <style>
+      :root { color-scheme: light; --paper: #f2f0ea; --ink: #171714; --muted: #68675f; --line: #cfccc2; --accent: #234d3c; }
+      *, *::before, *::after { box-sizing: border-box; }
+      html { scroll-behavior: smooth; }
+      body { margin: 0; background: var(--paper); color: var(--ink); font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 16px; line-height: 1.5; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }
+      a { color: inherit; }
+      .page { width: min(100% - 40px, 980px); margin: 0 auto; }
+      .masthead { padding: 44px 0 34px; border-bottom: 1px solid var(--ink); }
+      .identity { display: flex; align-items: baseline; justify-content: space-between; gap: 24px; margin-bottom: 52px; }
+      .name { margin: 0; font-family: Iowan Old Style, Baskerville, "Times New Roman", serif; font-size: clamp(2.15rem, 6vw, 4.8rem); font-weight: 400; line-height: 0.95; letter-spacing: -0.055em; }
+      .descriptor { max-width: 310px; margin: 0; color: var(--muted); font-size: 0.88rem; line-height: 1.55; text-align: right; }
+      .socials { display: flex; flex-wrap: wrap; gap: 8px 20px; }
+      .socials a { display: inline-flex; align-items: center; gap: 6px; padding: 5px 0; color: var(--ink); font-size: 0.75rem; font-weight: 650; letter-spacing: 0.075em; text-decoration: none; text-transform: uppercase; }
+      .socials a::after { content: "↗"; color: var(--muted); font-size: 0.78rem; transition: transform 160ms ease; }
+      .socials a[href^="mailto"]::after { content: "→"; }
+      .socials a:hover, .socials a:focus-visible { color: var(--accent); }
+      .socials a:hover::after, .socials a:focus-visible::after { transform: translate(2px, -2px); }
+      .socials a[href^="mailto"]:hover::after, .socials a[href^="mailto"]:focus-visible::after { transform: translateX(2px); }
+      a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+      main { padding: 72px 0 96px; }
+      .section-heading { display: grid; grid-template-columns: 150px 1fr; gap: 28px; align-items: end; margin-bottom: 24px; }
+      .eyebrow { margin: 0 0 8px; color: var(--accent); font-size: 0.7rem; font-weight: 750; letter-spacing: 0.13em; text-transform: uppercase; }
+      h2 { margin: 0; font-family: Iowan Old Style, Baskerville, "Times New Roman", serif; font-size: clamp(2rem, 5vw, 3.75rem); font-weight: 400; line-height: 1; letter-spacing: -0.045em; }
+      .count { justify-self: end; margin: 0 0 7px; color: var(--muted); font-size: 0.78rem; }
+      .book-list { margin: 0; padding: 0; border-top: 1px solid var(--line); list-style: none; counter-reset: books; }
+      .book { counter-increment: books; display: grid; grid-template-columns: 150px minmax(0, 1fr) minmax(190px, 0.62fr); gap: 28px; align-items: baseline; padding: 20px 0 21px; border-bottom: 1px solid var(--line); transition: color 160ms ease, padding 160ms ease; }
+      .book::before { content: counter(books, decimal-leading-zero); color: var(--muted); font-size: 0.7rem; font-variant-numeric: tabular-nums; letter-spacing: 0.08em; }
+      .book-title { font-family: Iowan Old Style, Baskerville, "Times New Roman", serif; font-size: clamp(1.12rem, 2.2vw, 1.42rem); line-height: 1.2; letter-spacing: -0.015em; }
+      .book-author { color: var(--muted); font-size: 0.85rem; line-height: 1.45; }
+      .book:hover { color: var(--accent); padding-left: 8px; }
+      .book:hover .book-author { color: var(--accent); }
+      footer { display: flex; justify-content: space-between; gap: 20px; padding: 24px 0 38px; border-top: 1px solid var(--ink); color: var(--muted); font-size: 0.72rem; letter-spacing: 0.04em; text-transform: uppercase; }
+      footer p { margin: 0; }
+      @media (max-width: 680px) {
+        .page { width: min(100% - 32px, 980px); }
+        .masthead { padding-top: 28px; }
+        .identity { display: block; margin-bottom: 32px; }
+        .descriptor { margin-top: 18px; text-align: left; }
+        .socials { gap: 4px 16px; }
+        main { padding: 54px 0 72px; }
+        .section-heading { display: flex; align-items: end; justify-content: space-between; gap: 16px; }
+        .book { grid-template-columns: 34px minmax(0, 1fr); gap: 12px; padding: 17px 0 18px; }
+        .book-author { grid-column: 2; margin-top: -4px; }
+        .book:hover { padding-left: 0; }
+        footer { display: block; }
+        footer p + p { margin-top: 4px; }
+      }
+      @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: 0.01ms !important; } }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <header class="masthead">
+        <div class="identity">
+          <h1 class="name">Sarthak Pattnaik</h1>
+          <p class="descriptor">AI &amp; automation engineer, data scientist, published researcher — and an avid reader.</p>
+        </div>
+        <nav class="socials" aria-label="Social links">
+          <a href="https://www.linkedin.com/in/sarthakpattnaik/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/spattnaik1998" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=zHT6Ok0AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">Google Scholar</a>
+          <a href="https://www.researchgate.net/profile/Sarthak-Pattnaik-3?ev=hdr_xprf" target="_blank" rel="noopener noreferrer">ResearchGate</a>
+          <a href="https://medium.com/@sarthakpattanaik_4094" target="_blank" rel="noopener noreferrer">Medium</a>
+          <a href="https://substack.com/@sarthakpattnaik1998" target="_blank" rel="noopener noreferrer">Substack</a>
+          <a href="https://x.com/Sarthakpattna1" target="_blank" rel="noopener noreferrer">X / Twitter</a>
+          <a href="mailto:dps.sarthak@gmail.com">Email</a>
+        </nav>
+      </header>
+      <main>
+        <section aria-labelledby="books-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">Reading shelf</p><h2 id="books-title">Books I loved</h2></div>
+            <p class="count">50 books</p>
+          </div>
+          <ol class="book-list">
+            <li class="book"><span class="book-title">Insanely Great</span><span class="book-author">Steven Levy</span></li>
+            <li class="book"><span class="book-title">The Second Machine Age</span><span class="book-author">Erik Brynjolfsson &amp; Andrew McAfee</span></li>
+            <li class="book"><span class="book-title">Artificial Intelligence: A Guide for Thinking Humans</span><span class="book-author">Melanie Mitchell</span></li>
+            <li class="book"><span class="book-title">Why Machines Learn</span><span class="book-author">Anil Ananthaswamy</span></li>
+            <li class="book"><span class="book-title">These Strange New Minds</span><span class="book-author">Christopher Summerfield</span></li>
+            <li class="book"><span class="book-title">Superagency</span><span class="book-author">Reid Hoffman</span></li>
+            <li class="book"><span class="book-title">Rebooting AI</span><span class="book-author">Gary Marcus</span></li>
+            <li class="book"><span class="book-title">The Coming Wave</span><span class="book-author">Mustafa Suleyman</span></li>
+            <li class="book"><span class="book-title">Genesis: Artificial Intelligence, Hope, and the Human Spirit</span><span class="book-author">Henry Kissinger, Eric Schmidt &amp; Craig Mundie</span></li>
+            <li class="book"><span class="book-title">The Infinity Machine</span><span class="book-author">Camila Russo</span></li>
+            <li class="book"><span class="book-title">The Scaling Era</span><span class="book-author">Dwarkesh Patel</span></li>
+            <li class="book"><span class="book-title">The Age of Extraction</span><span class="book-author">Tim Wu</span></li>
+            <li class="book"><span class="book-title">Sapiens</span><span class="book-author">Yuval Noah Harari</span></li>
+            <li class="book"><span class="book-title">Nexus</span><span class="book-author">Yuval Noah Harari</span></li>
+            <li class="book"><span class="book-title">Genius Makers</span><span class="book-author">Cade Metz</span></li>
+            <li class="book"><span class="book-title">Automate This</span><span class="book-author">Christopher Steiner</span></li>
+            <li class="book"><span class="book-title">A Brief History of Intelligence</span><span class="book-author">Max Bennett</span></li>
+            <li class="book"><span class="book-title">The Worlds I See</span><span class="book-author">Fei-Fei Li</span></li>
+            <li class="book"><span class="book-title">Weapons of Math Destruction</span><span class="book-author">Cathy O’Neil</span></li>
+            <li class="book"><span class="book-title">Recoding America</span><span class="book-author">Jennifer Pahlka</span></li>
+            <li class="book"><span class="book-title">What Is ChatGPT Doing … and Why Does It Work?</span><span class="book-author">Stephen Wolfram</span></li>
+            <li class="book"><span class="book-title">The Rise and Fall of the Neoliberal Order</span><span class="book-author">Gary Gerstle</span></li>
+            <li class="book"><span class="book-title">The Complacent Class</span><span class="book-author">Tyler Cowen</span></li>
+            <li class="book"><span class="book-title">Stubborn Attachments</span><span class="book-author">Tyler Cowen</span></li>
+            <li class="book"><span class="book-title">Age of Revolutions</span><span class="book-author">Fareed Zakaria</span></li>
+            <li class="book"><span class="book-title">The Guns of August</span><span class="book-author">Barbara W. Tuchman</span></li>
+            <li class="book"><span class="book-title">Conformity</span><span class="book-author">Cass R. Sunstein</span></li>
+            <li class="book"><span class="book-title">The Anatomy of the State</span><span class="book-author">Murray N. Rothbard</span></li>
+            <li class="book"><span class="book-title">Civilization</span><span class="book-author">Niall Ferguson</span></li>
+            <li class="book"><span class="book-title">Colossus</span><span class="book-author">Niall Ferguson</span></li>
+            <li class="book"><span class="book-title">Every Nation for Itself</span><span class="book-author">Ian Bremmer</span></li>
+            <li class="book"><span class="book-title">Hit Reverse</span><span class="book-author">Jash Dholani</span></li>
+            <li class="book"><span class="book-title">Mortality</span><span class="book-author">Christopher Hitchens</span></li>
+            <li class="book"><span class="book-title">The White Pill</span><span class="book-author">Michael Malice</span></li>
+            <li class="book"><span class="book-title">Leaders in War</span><span class="book-author">Andrew Roberts</span></li>
+            <li class="book"><span class="book-title">Political Tribes</span><span class="book-author">Amy Chua</span></li>
+            <li class="book"><span class="book-title">Why? The Purpose of the Universe</span><span class="book-author">Philip Goff</span></li>
+            <li class="book"><span class="book-title">World Order</span><span class="book-author">Henry Kissinger</span></li>
+            <li class="book"><span class="book-title">Leadership</span><span class="book-author">Henry Kissinger</span></li>
+            <li class="book"><span class="book-title">Abundance</span><span class="book-author">Ezra Klein &amp; Derek Thompson</span></li>
+            <li class="book"><span class="book-title">On Work</span><span class="book-author">Derek Thompson</span></li>
+            <li class="book"><span class="book-title">Why We’re Polarized</span><span class="book-author">Ezra Klein</span></li>
+            <li class="book"><span class="book-title">A Certain Idea of America</span><span class="book-author">Peggy Noonan</span></li>
+            <li class="book"><span class="book-title">Give People Money</span><span class="book-author">Annie Lowrey</span></li>
+            <li class="book"><span class="book-title">Breakneck</span><span class="book-author">Dan Wang</span></li>
+            <li class="book"><span class="book-title">The New China Playbook</span><span class="book-author">Keyu Jin</span></li>
+            <li class="book"><span class="book-title">Keynes Hayek</span><span class="book-author">Nicholas Wapshott</span></li>
+            <li class="book"><span class="book-title">This Time Is Different</span><span class="book-author">Carmen M. Reinhart &amp; Kenneth S. Rogoff</span></li>
+            <li class="book"><span class="book-title">Destined for War</span><span class="book-author">Graham Allison</span></li>
+            <li class="book"><span class="book-title">Civilized to Death</span><span class="book-author">Christopher Ryan</span></li>
+          </ol>
+        </section>
+      </main>
+      <footer><p>© 2026 Sarthak Pattnaik</p><p>New York, NY</p></footer>
+    </div>
+  </body>
+</html>
