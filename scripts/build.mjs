@@ -51,3 +51,8 @@ export default {
 
 await mkdir(new URL("../dist/server/", import.meta.url), { recursive: true });
 await writeFile(new URL("../dist/server/index.js", import.meta.url), worker);
+await writeFile(new URL("../dist/index.html", import.meta.url), html);
+
+if (socialCard) {
+  await writeFile(new URL("../dist/og.png", import.meta.url), Buffer.from(socialCard, "base64"));
+}
