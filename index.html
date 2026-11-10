@@ -40,7 +40,6 @@
       .eyebrow { margin: 0 0 8px; color: var(--accent); font-size: 0.7rem; font-weight: 750; letter-spacing: 0.13em; text-transform: uppercase; }
       h2 { margin: 0; font-family: Iowan Old Style, Baskerville, "Times New Roman", serif; font-size: clamp(2rem, 5vw, 3.75rem); font-weight: 400; line-height: 1; letter-spacing: -0.045em; white-space: nowrap; }
       .count { justify-self: end; margin: 0 0 7px; color: var(--muted); font-size: 0.78rem; }
-      .library-note { margin: -6px 0 22px; color: var(--muted); font-size: 0.82rem; }
       .book-list {
         --shelf-row: 230px;
         display: grid;
@@ -147,7 +146,6 @@
         main { padding: 54px 0 72px; }
         .section-heading { gap: 16px; }
         .count { display: none; }
-        .library-note { margin-bottom: 16px; }
         .book-list { --shelf-row: 190px; grid-template-columns: repeat(auto-fill, minmax(34px, 1fr)); gap: 0 6px; padding: 0 14px 10px; background: repeating-linear-gradient(to bottom, #d8c7a6 0, #d1bd97 165px, #aa7449 165px, #805032 172px, #5b341f 185px, #301a0f 190px); }
         .book { height: 138px; margin-bottom: 25px; padding: 13px 4px 22px; }
         .book:nth-child(7n+2) { height: 153px; }
@@ -186,11 +184,10 @@
       <main>
         <section aria-labelledby="books-title">
           <div class="section-heading">
-            <div><p class="eyebrow">Reading shelf</p><h2 id="books-title">Books I loved</h2></div>
+            <h2 id="books-title">Library</h2>
             <p class="count">57 books</p>
           </div>
-          <p class="library-note" id="library-note">Select a spine to see its title and author.</p>
-          <ol class="book-list" aria-describedby="library-note">
+          <ol class="book-list">
             <li class="book"><span class="book-title">Insanely Great</span><span class="book-author">Steven Levy</span></li>
             <li class="book"><span class="book-title">The Second Machine Age</span><span class="book-author">Erik Brynjolfsson &amp; Andrew McAfee</span></li>
             <li class="book"><span class="book-title">Artificial Intelligence: A Guide for Thinking Humans</span><span class="book-author">Melanie Mitchell</span></li>
