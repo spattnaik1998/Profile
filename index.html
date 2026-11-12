@@ -39,6 +39,7 @@
       .section-heading { display: flex; justify-content: space-between; gap: 28px; align-items: end; margin-bottom: 24px; }
       .eyebrow { margin: 0 0 8px; color: var(--accent); font-size: 0.7rem; font-weight: 750; letter-spacing: 0.13em; text-transform: uppercase; }
       h2 { margin: 0; font-family: Iowan Old Style, Baskerville, "Times New Roman", serif; font-size: clamp(2rem, 5vw, 3.75rem); font-weight: 400; line-height: 1; letter-spacing: -0.045em; white-space: nowrap; }
+      .library-note { display: inline-block; margin-left: 0.45em; color: var(--muted); font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: clamp(0.72rem, 1.8vw, 0.95rem); font-weight: 400; letter-spacing: 0; }
       .count { justify-self: end; margin: 0 0 7px; color: var(--muted); font-size: 0.78rem; }
       .book-list {
         --shelf-row: 226px;
@@ -104,6 +105,7 @@
         background: #e8e1d3;
         object-fit: cover;
       }
+      .book-cover.is-square, .dialog-cover.is-square { background: #0a0a08; object-fit: contain; }
       .book-title, .book-author {
         position: absolute;
         width: 1px;
@@ -117,7 +119,7 @@
       }
       .book:hover, .book:focus-visible { z-index: 2; filter: saturate(1.08); transform: translateY(-10px) rotate(-1deg) scale(1.035); box-shadow: -3px 5px 5px rgba(42,28,17,0.28), 9px 15px 18px rgba(42,28,17,0.26); }
       .book:focus-visible { outline: 3px solid var(--paper); outline-offset: 4px; }
-      .book-dialog { width: min(92vw, 620px); padding: 0; border: 0; background: transparent; color: var(--ink); }
+      .book-dialog { width: min(92vw, 620px); max-height: calc(100dvh - 40px); padding: 0; overflow: visible; border: 0; background: transparent; color: var(--ink); }
       .book-dialog::backdrop { background: rgba(20,20,17,0.7); backdrop-filter: blur(3px); }
       .book-card { position: relative; display: grid; grid-template-columns: minmax(120px, 180px) 1fr; gap: 34px; align-items: center; padding: 48px 42px 44px; border: 1px solid #9e8a68; border-radius: 4px; background: var(--paper); box-shadow: 0 28px 80px rgba(0,0,0,0.35); animation: book-card-in 180ms ease-out; }
       .book-card::before { content: ""; position: absolute; inset: 10px; border: 1px solid var(--line); pointer-events: none; }
@@ -172,7 +174,7 @@
       <main>
         <section aria-labelledby="books-title">
           <div class="section-heading">
-            <h2 id="books-title">Library</h2>
+            <h2 id="books-title">Library <span class="library-note">(Books I liked)</span></h2>
             <p class="count">57 books</p>
           </div>
           <ol class="book-list">
@@ -259,7 +261,9 @@
       function openBook(book) {
         dialogTitle.textContent = book.querySelector('.book-title').textContent;
         dialogAuthor.textContent = book.querySelector('.book-author').textContent;
-        dialogCover.src = book.querySelector('.book-cover')?.src || '';
+        const cover = book.querySelector('.book-cover');
+        dialogCover.src = cover?.src || '';
+        dialogCover.classList.toggle('is-square', cover?.classList.contains('is-square'));
         bookDialog.showModal();
       }
 
@@ -295,6 +299,9 @@
             image.alt = '';
             image.loading = index < 12 ? 'eager' : 'lazy';
             image.decoding = 'async';
+            image.addEventListener('load', () => {
+              image.classList.toggle('is-square', image.naturalWidth / image.naturalHeight > 0.82);
+            });
             image.src = cover.cover;
             book.prepend(image);
           });

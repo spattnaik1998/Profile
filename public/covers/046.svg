@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" viewBox="0 0 300 450">
-  <rect width="300" height="450" fill="#244f43"/>
-  <rect x="17" y="17" width="266" height="416" fill="none" stroke="#f2e8cf" stroke-opacity=".55"/>
-  <path d="M55 72h190M55 85h190" stroke="#f2e8cf" stroke-opacity=".7"/>
-  <text x="150" y="190" fill="#f2e8cf" font-family="Georgia,serif" font-size="25" text-anchor="middle"><tspan x="150" dy="0">The New China</tspan><tspan x="150" dy="31">Playbook</tspan></text>
-  <text x="150" y="365" fill="#f2e8cf" font-family="Arial,sans-serif" font-size="13" letter-spacing="1.2" text-anchor="middle">KEYU JIN</text>
-  <path d="M95 392h110" stroke="#f2e8cf" stroke-opacity=".7"/>
-</svg>

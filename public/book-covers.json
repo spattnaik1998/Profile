@@ -343,8 +343,8 @@
   {
     "title": "Hit Reverse",
     "author": "Jash Dholani",
-    "cover": "/covers/032.svg",
-    "source": "Designed fallback",
+    "cover": "/covers/032.png",
+    "source": "Provided cover",
     "matchedTitle": "Hit Reverse",
     "matchedAuthors": [
       "Jash Dholani"
@@ -500,8 +500,8 @@
   {
     "title": "The New China Playbook",
     "author": "Keyu Jin",
-    "cover": "/covers/046.svg",
-    "source": "Designed fallback",
+    "cover": "/covers/046.png",
+    "source": "Provided cover",
     "matchedTitle": "The New China Playbook",
     "matchedAuthors": [
       "Keyu Jin"
@@ -610,8 +610,8 @@
   {
     "title": "The Eureka Machine",
     "author": "Richard Socher",
-    "cover": "/covers/056.svg",
-    "source": "Designed fallback",
+    "cover": "/covers/056.png",
+    "source": "Provided cover",
     "matchedTitle": "The Eureka Machine",
     "matchedAuthors": [
       "Richard Socher"
