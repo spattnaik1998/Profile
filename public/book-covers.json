@@ -365,8 +365,8 @@
   {
     "title": "The White Pill",
     "author": "Michael Malice",
-    "cover": "/covers/034.svg",
-    "source": "Designed fallback",
+    "cover": "/covers/034.png",
+    "source": "Provided cover",
     "matchedTitle": "The White Pill",
     "matchedAuthors": [
       "Michael Malice"
@@ -376,8 +376,8 @@
   {
     "title": "Leaders in War",
     "author": "Andrew Roberts",
-    "cover": "/covers/035.svg",
-    "source": "Designed fallback",
+    "cover": "/covers/035.png",
+    "source": "Provided cover",
     "matchedTitle": "Leaders in War",
     "matchedAuthors": [
       "Andrew Roberts"
@@ -522,8 +522,8 @@
   {
     "title": "This Time Is Different",
     "author": "Carmen M. Reinhart & Kenneth S. Rogoff",
-    "cover": "/covers/048.svg",
-    "source": "Designed fallback",
+    "cover": "/covers/048.png",
+    "source": "Provided cover",
     "matchedTitle": "This Time Is Different",
     "matchedAuthors": [
       "Carmen M. Reinhart & Kenneth S. Rogoff"
