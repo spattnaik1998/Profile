@@ -628,5 +628,27 @@
       "Kevin Roose"
     ],
     "matchScore": 171
+  },
+  {
+    "title": "Zero to One",
+    "author": "Peter Thiel",
+    "cover": "/covers/058.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Zero to One",
+    "matchedAuthors": [
+      "Peter Thiel & Blake Masters"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Code: Silicon Valley and the Remaking of America",
+    "author": "Margaret O’Mara",
+    "cover": "/covers/059.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Code",
+    "matchedAuthors": [
+      "Margaret O'Mara"
+    ],
+    "matchScore": 74.75
   }
 ]
