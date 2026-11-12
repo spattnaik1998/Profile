@@ -189,8 +189,8 @@
   {
     "title": "The Worlds I See",
     "author": "Fei-Fei Li",
-    "cover": "/covers/018.svg",
-    "source": "Designed fallback",
+    "cover": "/covers/018.png",
+    "source": "Provided cover",
     "matchedTitle": "The Worlds I See",
     "matchedAuthors": [
       "Fei-Fei Li"
