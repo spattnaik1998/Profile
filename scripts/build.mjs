@@ -1,4 +1,4 @@
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { cp, mkdir, readFile, writeFile } from "node:fs/promises";
 
 const html = await readFile(new URL("../index.html", import.meta.url), "utf8");
 let socialCard = null;
@@ -52,6 +52,8 @@ export default {
 await mkdir(new URL("../dist/server/", import.meta.url), { recursive: true });
 await writeFile(new URL("../dist/server/index.js", import.meta.url), worker);
 await writeFile(new URL("../dist/index.html", import.meta.url), html);
+await cp(new URL("../public/book-covers.json", import.meta.url), new URL("../dist/book-covers.json", import.meta.url));
+await cp(new URL("../public/covers/", import.meta.url), new URL("../dist/covers/", import.meta.url), { recursive: true });
 
 if (socialCard) {
   await writeFile(new URL("../dist/og.png", import.meta.url), Buffer.from(socialCard, "base64"));

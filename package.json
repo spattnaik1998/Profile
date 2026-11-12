@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "covers": "node scripts/fetch-book-covers.mjs",
     "build": "node scripts/build.mjs",
     "test:vercel": "npm run build && node scripts/check-vercel-output.mjs"
   }

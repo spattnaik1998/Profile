@@ -1,0 +1,632 @@
+[
+  {
+    "title": "Insanely Great",
+    "author": "Steven Levy",
+    "cover": "/covers/001.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Insanely Great",
+    "matchedAuthors": [
+      "Steven Levy"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Second Machine Age",
+    "author": "Erik Brynjolfsson & Andrew McAfee",
+    "cover": "/covers/002.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Second Machine Age",
+    "matchedAuthors": [
+      "Erik Brynjolfsson & Andrew McAfee"
+    ],
+    "matchScore": 187
+  },
+  {
+    "title": "Artificial Intelligence: A Guide for Thinking Humans",
+    "author": "Melanie Mitchell",
+    "cover": "/covers/003.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Artificial Intelligence",
+    "matchedAuthors": [
+      "Melanie Mitchell"
+    ],
+    "matchScore": 76.71428571428572
+  },
+  {
+    "title": "Why Machines Learn",
+    "author": "Anil Ananthaswamy",
+    "cover": "/covers/004.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Why Machines Learn",
+    "matchedAuthors": [
+      "Anil Ananthaswamy"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "These Strange New Minds",
+    "author": "Christopher Summerfield",
+    "cover": "/covers/005.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "These Strange New Minds",
+    "matchedAuthors": [
+      "Christopher Summerfield"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Superagency",
+    "author": "Reid Hoffman",
+    "cover": "/covers/006.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Superagency",
+    "matchedAuthors": [
+      "Reid Hoffman & Greg Beato"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Rebooting AI",
+    "author": "Gary Marcus",
+    "cover": "/covers/007.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Rebooting AI",
+    "matchedAuthors": [
+      "Gary Marcus & Ernest Davis"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Coming Wave",
+    "author": "Mustafa Suleyman",
+    "cover": "/covers/008.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Coming Wave",
+    "matchedAuthors": [
+      "Mustafa Suleyman & Michael Bhaskar"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Genesis: Artificial Intelligence, Hope, and the Human Spirit",
+    "author": "Henry Kissinger, Eric Schmidt & Craig Mundie",
+    "cover": "/covers/009.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Genesis",
+    "matchedAuthors": [
+      "Henry A. Kissinger, Eric Schmidt, Craig Mundie & Niall Ferguson"
+    ],
+    "matchScore": 99.875
+  },
+  {
+    "title": "The Infinity Machine",
+    "author": "Sebastian Mallaby",
+    "cover": "/covers/010.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Infinity Machine",
+    "matchedAuthors": [
+      "Sebastian Mallaby"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Scaling Era",
+    "author": "Dwarkesh Patel",
+    "cover": "/covers/011.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Scaling Era",
+    "matchedAuthors": [
+      "Dwarkesh Patel"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Age of Extraction",
+    "author": "Tim Wu",
+    "cover": "/covers/012.jpg",
+    "source": "Open Library",
+    "matchedTitle": "The Age of Extraction",
+    "matchedAuthors": [
+      "Tim Wu"
+    ],
+    "matchScore": 163
+  },
+  {
+    "title": "Sapiens",
+    "author": "Yuval Noah Harari",
+    "cover": "/covers/013.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Sapiens",
+    "matchedAuthors": [
+      "Yuval Noah Harari"
+    ],
+    "matchScore": 179
+  },
+  {
+    "title": "Nexus",
+    "author": "Yuval Noah Harari",
+    "cover": "/covers/014.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Nexus",
+    "matchedAuthors": [
+      "Yuval Noah Harari"
+    ],
+    "matchScore": 179
+  },
+  {
+    "title": "Genius Makers",
+    "author": "Cade Metz",
+    "cover": "/covers/015.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Genius Makers",
+    "matchedAuthors": [
+      "Cade Metz"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Automate This",
+    "author": "Christopher Steiner",
+    "cover": "/covers/016.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Automate this",
+    "matchedAuthors": [
+      "Christopher Steiner"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "A Brief History of Intelligence",
+    "author": "Max Bennett",
+    "cover": "/covers/017.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "A Brief History of Intelligence",
+    "matchedAuthors": [
+      "Max S. Bennett"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Worlds I See",
+    "author": "Fei-Fei Li",
+    "cover": "/covers/018.svg",
+    "source": "Designed fallback",
+    "matchedTitle": "The Worlds I See",
+    "matchedAuthors": [
+      "Fei-Fei Li"
+    ],
+    "matchScore": null
+  },
+  {
+    "title": "Weapons of Math Destruction",
+    "author": "Cathy O’Neil",
+    "cover": "/covers/019.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Weapons of Math Destruction",
+    "matchedAuthors": [
+      "Cathy O'Neil"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Recoding America",
+    "author": "Jennifer Pahlka",
+    "cover": "/covers/020.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Recoding America",
+    "matchedAuthors": [
+      "Jennifer Pahlka"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "What Is ChatGPT Doing … and Why Does It Work?",
+    "author": "Stephen Wolfram",
+    "cover": "/covers/021.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "What Is ChatGPT Doing",
+    "matchedAuthors": [
+      "Stephen Wolfram"
+    ],
+    "matchScore": 85.44444444444444
+  },
+  {
+    "title": "The Rise and Fall of the Neoliberal Order",
+    "author": "Gary Gerstle",
+    "cover": "/covers/022.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Rise and Fall of the Neoliberal Order",
+    "matchedAuthors": [
+      "Gary Gerstle"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Complacent Class",
+    "author": "Tyler Cowen",
+    "cover": "/covers/023.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Complacent Class",
+    "matchedAuthors": [
+      "Tyler Cowen"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Stubborn Attachments",
+    "author": "Tyler Cowen",
+    "cover": "/covers/024.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Stubborn Attachments",
+    "matchedAuthors": [
+      "Tyler Cowen"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Age of Revolutions",
+    "author": "Fareed Zakaria",
+    "cover": "/covers/025.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Age of Revolutions",
+    "matchedAuthors": [
+      "Fareed Zakaria"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Guns of August",
+    "author": "Barbara W. Tuchman",
+    "cover": "/covers/026.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Guns of August",
+    "matchedAuthors": [
+      "Barbara W. Tuchman"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Conformity",
+    "author": "Cass R. Sunstein",
+    "cover": "/covers/027.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Conformity",
+    "matchedAuthors": [
+      "Cass R. Sunstein & Robert H Frank"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The Anatomy of the State",
+    "author": "Murray N. Rothbard",
+    "cover": "/covers/028.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Anatomy of the State",
+    "matchedAuthors": [
+      "Murray N. Rothbard"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Civilization",
+    "author": "Niall Ferguson",
+    "cover": "/covers/029.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Civilization",
+    "matchedAuthors": [
+      "Niall Ferguson"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Colossus",
+    "author": "Niall Ferguson",
+    "cover": "/covers/030.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Colossus",
+    "matchedAuthors": [
+      "Niall Ferguson"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Every Nation for Itself",
+    "author": "Ian Bremmer",
+    "cover": "/covers/031.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Every Nation for Itself",
+    "matchedAuthors": [
+      "Ian Bremmer"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Hit Reverse",
+    "author": "Jash Dholani",
+    "cover": "/covers/032.svg",
+    "source": "Designed fallback",
+    "matchedTitle": "Hit Reverse",
+    "matchedAuthors": [
+      "Jash Dholani"
+    ],
+    "matchScore": null
+  },
+  {
+    "title": "Mortality",
+    "author": "Christopher Hitchens",
+    "cover": "/covers/033.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Mortality",
+    "matchedAuthors": [
+      "Christopher Hitchens"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The White Pill",
+    "author": "Michael Malice",
+    "cover": "/covers/034.svg",
+    "source": "Designed fallback",
+    "matchedTitle": "The White Pill",
+    "matchedAuthors": [
+      "Michael Malice"
+    ],
+    "matchScore": null
+  },
+  {
+    "title": "Leaders in War",
+    "author": "Andrew Roberts",
+    "cover": "/covers/035.svg",
+    "source": "Designed fallback",
+    "matchedTitle": "Leaders in War",
+    "matchedAuthors": [
+      "Andrew Roberts"
+    ],
+    "matchScore": null
+  },
+  {
+    "title": "Political Tribes",
+    "author": "Amy Chua",
+    "cover": "/covers/036.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Political Tribes",
+    "matchedAuthors": [
+      "Amy Chua"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Why? The Purpose of the Universe",
+    "author": "Philip Goff",
+    "cover": "/covers/037.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Why? The Purpose of the Universe",
+    "matchedAuthors": [
+      "Philip Goff"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "World Order",
+    "author": "Henry Kissinger",
+    "cover": "/covers/038.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "World Order",
+    "matchedAuthors": [
+      "Henry Kissinger"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Leadership",
+    "author": "Henry Kissinger",
+    "cover": "/covers/039.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Leadership",
+    "matchedAuthors": [
+      "Henry Kissinger"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Abundance",
+    "author": "Ezra Klein & Derek Thompson",
+    "cover": "/covers/040.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Abundance",
+    "matchedAuthors": [
+      "Ezra Klein",
+      "Derek Thompson"
+    ],
+    "matchScore": 187
+  },
+  {
+    "title": "On Work",
+    "author": "Derek Thompson",
+    "cover": "/covers/041.jpg",
+    "source": "Open Library",
+    "matchedTitle": "On Work",
+    "matchedAuthors": [
+      "Derek Thompson"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Why We’re Polarized",
+    "author": "Ezra Klein",
+    "cover": "/covers/042.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Why We're Polarized",
+    "matchedAuthors": [
+      "Ezra Klein",
+      "Antonio M. Jaime",
+      "Luis Miller"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "A Certain Idea of America",
+    "author": "Peggy Noonan",
+    "cover": "/covers/043.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "A Certain Idea of America",
+    "matchedAuthors": [
+      "Peggy Noonan"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Give People Money",
+    "author": "Annie Lowrey",
+    "cover": "/covers/044.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Give People Money",
+    "matchedAuthors": [
+      "Annie Lowrey"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Breakneck",
+    "author": "Dan Wang",
+    "cover": "/covers/045.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Breakneck",
+    "matchedAuthors": [
+      "Dan Wang"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "The New China Playbook",
+    "author": "Keyu Jin",
+    "cover": "/covers/046.svg",
+    "source": "Designed fallback",
+    "matchedTitle": "The New China Playbook",
+    "matchedAuthors": [
+      "Keyu Jin"
+    ],
+    "matchScore": null
+  },
+  {
+    "title": "Keynes Hayek",
+    "author": "Nicholas Wapshott",
+    "cover": "/covers/047.jpg",
+    "source": "Open Library",
+    "matchedTitle": "Keynes Hayek",
+    "matchedAuthors": [
+      "Nicholas Wapshott"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "This Time Is Different",
+    "author": "Carmen M. Reinhart & Kenneth S. Rogoff",
+    "cover": "/covers/048.svg",
+    "source": "Designed fallback",
+    "matchedTitle": "This Time Is Different",
+    "matchedAuthors": [
+      "Carmen M. Reinhart & Kenneth S. Rogoff"
+    ],
+    "matchScore": null
+  },
+  {
+    "title": "Destined for War",
+    "author": "Graham Allison",
+    "cover": "/covers/049.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Destined For War",
+    "matchedAuthors": [
+      "Graham Allison"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Civilized to Death",
+    "author": "Christopher Ryan",
+    "cover": "/covers/050.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Civilized to Death",
+    "matchedAuthors": [
+      "Christopher Ryan"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Machine, Platform, Crowd",
+    "author": "Erik Brynjolfsson & Andrew McAfee",
+    "cover": "/covers/051.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Machine, Platform, Crowd",
+    "matchedAuthors": [
+      "Andrew McAfee & Erik Brynjolfsson"
+    ],
+    "matchScore": 187
+  },
+  {
+    "title": "The Book of Why",
+    "author": "Judea Pearl",
+    "cover": "/covers/052.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "The Book of Why",
+    "matchedAuthors": [
+      "Judea Pearl & Dana Mackenzie"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "Here Comes the Sun",
+    "author": "Bill McKibben",
+    "cover": "/covers/053.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "Here Comes the Sun",
+    "matchedAuthors": [
+      "Bill McKibben"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "What Technology Wants",
+    "author": "Kevin Kelly",
+    "cover": "/covers/054.jpg",
+    "source": "Open Library",
+    "matchedTitle": "What technology wants",
+    "matchedAuthors": [
+      "Kevin Kelly"
+    ],
+    "matchScore": 171
+  },
+  {
+    "title": "How to Win a Trade War",
+    "author": "Soumaya Keynes & Chad P. Bown",
+    "cover": "/covers/055.jpg",
+    "source": "Apple Books",
+    "matchedTitle": "How to Win a Trade War",
+    "matchedAuthors": [
+      "Soumaya Keynes & Chad P. Bown"
+    ],
+    "matchScore": 187
+  },
+  {
+    "title": "The Eureka Machine",
+    "author": "Richard Socher",
+    "cover": "/covers/056.svg",
+    "source": "Designed fallback",
+    "matchedTitle": "The Eureka Machine",
+    "matchedAuthors": [
+      "Richard Socher"
+    ],
+    "matchScore": null
+  },
+  {
+    "title": "The AGI Chronicles",
+    "author": "Kevin Roose",
+    "cover": "/covers/057.jpg",
+    "source": "Open Library",
+    "matchedTitle": "The AGI Chronicles",
+    "matchedAuthors": [
+      "Kevin Roose"
+    ],
+    "matchScore": 171
+  }
+]
